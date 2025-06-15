@@ -1,0 +1,31 @@
+# Ignore everything inside the data folder
+data/*
+env/*
+
+# Ignore .env file
+.env
+
+# Ignore everything inside save_history folder
+save_history/*
+
+# Ignore Python cache files and folders
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environments (optional)
+env/
+venv/
+ENV/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled Python files
+*.so
+
+# Ignore logs
+*.log
+
